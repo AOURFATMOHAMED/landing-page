@@ -63,9 +63,13 @@ margin-top: 19px;
 /* slide */
 
 .slidershow{
-    width: 700px;
-    height: 400px;
+    width: 654px;
+    height: 353px;
     overflow: hidden;
+    top: 1990PX;
+    left: 346px;
+
+    
   }
   .middle{
     position: absolute;
@@ -73,6 +77,8 @@ margin-top: 19px;
     left: 50%;
     bottom: 12%;
     transform: translate(-50%,-50%);
+    top: 1990PX;
+   
   }
   .navigation{
     position: absolute;
