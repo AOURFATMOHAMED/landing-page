@@ -163,7 +163,7 @@ nav{
   }
   
   .head-pic {
-    background-image: url("img/head-picture.png");
+    background-image: url("../img/head-picture.png");
     min-height: 520px;
     background-position: center;
     background-repeat: no-repeat;
