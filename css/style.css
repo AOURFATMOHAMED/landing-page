@@ -149,14 +149,24 @@ margin-top: 19px;
 .grid-code {
   display: grid;
   grid-template-columns: 1fr 1fr ;
-  grid-gap: 20px;
-  padding: 5px;
 }
 
-.grid-code > div {
 
-  text-align: center;
-  padding: 20px 0;
-  font-size: 20px;
+.item1 a {
+color:  #48ABE2;
+text-decoration: none;
+}
+.item1 P {
+  padding: 60px 140px;
+  font-size: 35px;
+text-align: center;
+
 }
 
+.itphoto{
+
+  margin-top: 50px;
+  border-radius: 60px;
+  width: 600px;
+  height: 450px;
+}
