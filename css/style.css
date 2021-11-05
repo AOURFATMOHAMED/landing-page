@@ -65,8 +65,8 @@ margin-top: 19px;
 /* slide */
 
 .slidershow{
-  width: 700px;
-  height: 400px;
+  width: 636px;
+   height: 541px;
   overflow: hidden;
 }
 .middle{
@@ -80,7 +80,7 @@ margin-top: 19px;
   display: flex;
 }
 .navigation{
-  width: 703px;
+  width: 482px;
   background-color: white;
   position: absolute;
   bottom: 0px;
@@ -115,7 +115,7 @@ input[name="r"]{
 }
 .slide img{
   width: 93%;
-  height: 87%;
+  height: 75%;
 }
 
 #r1:checked ~ .s1{
@@ -252,4 +252,28 @@ nav{
     
   }
 
-  
+.gta {
+padding: 17px;
+}
+  .gta p {
+    line-height: 172%;
+  }
+
+  h4 {
+    padding-top: 18px;
+
+  }
+ 
+  .gta button {
+    background-color: #FB3232;
+  }
+ i{
+    color: #FB3232;
+  }
+  h4 {
+    text-decoration: underline;
+  }
+  .title {
+    text-align: center;
+    padding-left: 292px;
+  }
