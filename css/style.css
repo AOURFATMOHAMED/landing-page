@@ -1,0 +1,201 @@
+
+  body, html {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  *{
+      margin: 0;
+      padding:0 ;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  nav{
+     background-color: #2366E9;
+      width: 100%;
+      height: 100px;
+  }  
+    * {
+      box-sizing: border-box;
+    }
+
+    
+.logo{ 
+  margin-top: 20px;
+  margin-left: 30px;
+  float: left;
+  width: 160px;
+  height: 60px;
+  
+}
+
+nav p img{
+  margin-right: 835px;
+}
+
+nav p {
+  position: relative;
+  top: 40px;
+  left: 400px;
+}
+
+    
+    .head-pic {
+    
+      background-image: url("../img/head-picture.png");
+      min-height: 520px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+    }
+    .contact {
+      position: absolute;
+      right: 100px;
+      margin-top: 50px;
+      max-width: 300px;
+      padding: 16px;
+      background-color: #2365e97e;
+      border-radius:  20px;
+    }
+  
+    input[type=text]{
+      width: 100%;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      border: none;
+      border-radius: 5px;
+      background: #f1f1f1;
+    }
+    
+    .btn {
+      background-color: #FB8632;
+      color: white;
+      padding: 14px;
+      margin-left: 75px;
+      border: none;
+      cursor: pointer;
+      width: 50%;
+      border-radius: 5px;
+      opacity: 0.9;
+  
+    }
+    
+    .btn:hover {
+      background-color:rgb(140, 210, 245);
+    
+    }
+.social-proofing {
+    width: 100%;
+    height: 20%;
+}
+h1{
+    text-align: center;
+    margin-top: 4%;
+    color: #2366E9;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 50px;
+    text-align: center;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 70px;
+  }
+  #haikei {
+  padding-left: 0%;
+  
+  }
+  
+  
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+
+  
+
+  
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 25%;
+  }
+
+  .button2 {
+      background-color: #FB8632;
+color: #fff;
+border: none;
+border-radius: 5px;
+padding: 14px 41px;
+padding-left: 19px;
+padding-right: 23px;
+margin-right: 14px;
+margin-top: 19px;
+  }
+  .button2:hover {
+    background-color: rgb(4, 65, 96);
+    cursor: pointer;
+}
+
+.grid-code {
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+}
+
+
+.item1 a {
+color:  #48ABE2;
+text-decoration: none;
+}
+.item1 P {
+  padding: 60px 140px;
+  font-size: 35px;
+text-align: center;
+
+}
+
+.itphoto{
+
+  margin-top: 50px;
+  border-radius: 60px;
+  width: 600px;
+  height: 450px;
+}
+
+
+
+.checked {
+  color: orange;
+  
+
+}
+
+#reviews{
+  line-height: 40px;
+  background:transparent;
+  border: #DCD6D6 solid ;
+  height: 300px;
+}
+#reviews h1{
+  margin-top: 20px;
+  text-align: left;
+}
+
+#customers-line{
+  width: 379px;
+ border-top: 2px solid #1084c2 ;
+}
+#lines{
+  margin-top: 30px;
+  margin-left: 400px;
+  width: 800px;
+  border-top: 1px solid #eee;
