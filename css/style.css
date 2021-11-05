@@ -66,22 +66,21 @@ margin-top: 19px;
     width: 654px;
     height: 353px;
     overflow: hidden;
-    top: 1990PX;
     left: 346px;
 
     
   }
   .middle{
-    position: absolute;
+    margin-left: 78px;
     top: 50%;
     left: 50%;
     bottom: 12%;
-    transform: translate(-50%,-50%);
-    top: 1990PX;
+    
+  
    
   }
   .navigation{
-    position: absolute;
+    margin-left: 78px;
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
