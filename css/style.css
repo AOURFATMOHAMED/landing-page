@@ -175,8 +175,29 @@ text-align: center;
 
 .checked {
   color: orange;
+  /* margin-bottom: 20px; */
 
 }
 
+#reviews{
+  line-height: 40px;
+  background:transparent;
+  border: #DCD6D6 solid ;
+  height: 300px;
+}
+#reviews h1{
+  margin-top: 20px;
+  text-align: left;
+  /* margin-bottom: 20px; */
 
+}
 
+#customers-line{
+  width: 379px;
+ border-top: 2px solid #1084c2 ;
+}
+#lines{
+  margin-left: 400px;
+  width: 800px;
+  border-top: 1px solid gray ;
+}
