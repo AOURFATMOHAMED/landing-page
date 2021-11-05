@@ -146,4 +146,17 @@ margin-top: 19px;
     cursor: pointer;
 }
 
+.grid-code {
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-gap: 20px;
+  padding: 5px;
+}
+
+.grid-code > div {
+
+  text-align: center;
+  padding: 20px 0;
+  font-size: 20px;
+}
 
