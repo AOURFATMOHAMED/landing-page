@@ -1,0 +1,741 @@
+  *{
+    margin: 0px;
+    padding:0 ;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+
+  }
+  /* change height body it's very important for head-pic */
+  body, html {
+    height: 100%;
+  }
+  /* change height body it's very important for head-pic */
+
+
+  /*  control h,ul,i,button  */
+  ul {
+    text-align: left;
+  }
+  h6 {
+    margin-bottom: 19px;
+    margin-left: 6%;
+    font-size: 14px;
+  }
+
+  i{
+    color: #FB3232;
+  }
+
+  h1{
+    text-align: center;
+    margin-top: 4%;
+    color: #2366E9;
+  }
+
+  h5 {
+    margin-top: 11px;
+    
+  }
+    h4 {
+      padding-top: 135px;
+      padding-bottom: 10px;
+      text-decoration: underline;
+      text-align: center;
+      text-shadow: 2px 2px #0003;
+
+    
+
+
+    }
+
+    button a {
+      text-decoration: none;
+      color: white;
+    }
+  
+  
+  /*  control h,ul,i  */
+
+
+
+  /*  control nav bar  */
+  nav{
+    background-color: #2366E9;
+    width: 100%;
+    height: 67px;
+  }  
+
+  nav p{
+    margin-right: 197px;
+    color:white ;
+    font-size: 20px;
+  }
+
+  .nav-bar {
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    background-color: #2366E9;
+    padding-left: 20px;
+
+
+  }
+
+
+  .logo {
+    width: 20%;
+    height: 70%;
+    display: block;
+    
+  }
+
+  /*  control nav bar  */
+
+  /*  control first photo whit contact form  */
+    
+  .head-pic {
+    background-image: url("../img/background/love-white.png");
+    min-height: 79%;
+    min-width: 20%;
+    background-size: 1560px 506px;
+    position: relative;
+    background-repeat: no-repeat;
+    
+  }
+
+  .contact {
+    position: absolute;
+    right: 100px;
+    margin-top: 8px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: #2365e97e;
+    border-radius:  20px;
+  }
+
+  input[type=text]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    border-radius: 5px;
+    background: #f1f1f1;
+  }
+
+  .btn-first {
+    background-color: #FB8632;
+    color: white;
+    padding: 14px;
+    margin-left: 75px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    border-radius: 5px;
+    opacity: 0.9;
+    font-weight:bold;
+
+  }
+
+  .btn-first:hover {
+    background-color:rgb(140, 210, 245);
+
+  }
+
+  /*  control first photo whit contact form  */
+
+
+
+  /*  control social-proofing  */
+  .social-proofing {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    }
+
+    /*  control video  */
+
+
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+
+
+  .grid-satisfaction  {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 50px;
+    text-align: center;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 70px;
+  }
+
+
+
+
+    
+  .video {
+    position: absolute;
+    top: 8px;
+    left: 25%;
+  }
+
+  .button2 {
+    background-color: #FB8632;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 14px 41px;
+    padding-left: 19px;
+    padding-right: 23px;
+    margin-right: 14px;
+    margin-top: 19px;
+    }
+    
+  .button2:hover {
+    background-color: rgb(140, 210, 245);
+    cursor: pointer;
+  }
+    /*  control video  */
+
+
+
+  /*  control who we are  */
+
+  .who-we-are {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    padding-top: 16px;
+
+  }
+
+
+  .wwa-class a {
+  color:  #48ABE2;
+  text-decoration: none;
+  text-shadow: 2px 2px #0003;
+  }
+  .wwa-class P {
+    padding: 57px 1px;
+    font-size: 31px;
+  text-align: center;
+  padding-bottom: 0;
+  margin-left: 20px;
+
+  }
+
+
+  .pic-who-we-are{
+
+    margin-top: 50px;
+    border-radius: 60px;
+    width: 399px;
+    height: 372px;
+    padding-left: 28px;
+    
+  }
+
+
+  /*  control who we are  */
+
+
+
+  /* slide */
+
+  .slidershow{
+    width: 636px;
+    height: 458px;
+    overflow: hidden;
+    padding-left: 20px;
+
+  }
+  .middle{
+  
+    top: 50%;
+    left: 50%;
+    bottom: 12%;
+    transform: translate(2%,0%);
+    padding-left: 20px;
+
+  }
+  .slide_flex{
+    display: flex;
+  }
+
+    .navigation {
+      width: 402px;
+      position: absolute;
+      bottom: 0px;
+      left: 46%;
+      transform: translateX(-50%);
+      display: flex;
+      padding-left: 20px;
+
+  }
+
+  .bar{
+    width: 107px;
+    height: 73px;
+    border: 2px solid #fff;
+    margin: 6px;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+
+
+  input[name="r"]{
+      position: absolute;
+      visibility: hidden;
+  }
+
+  .slides{
+    width: 500%;
+    height: 100%;
+    display: flex;
+  }
+
+  .slide{
+    width: 20%;
+    transition: 0.6s;
+  }
+  .slide img{
+    width: 93%;
+    height: 75%;
+  }
+
+  #r1:checked ~ .s1{
+    margin-left: 0;
+  }
+  #r2:checked ~ .s1{
+    margin-left: -20%;
+  }
+  #r3:checked ~ .s1{
+    margin-left: -40%;
+  }
+  #r4:checked ~ .s1{
+    margin-left: -60%;
+  }
+  #r5:checked ~ .s1{
+    margin-left: -80%;
+  }
+
+  .product {
+    display: flex; 
+    background: url(/img/background/back-2.png);
+    align-items:flex-end;
+    background-position-x: 99%;
+    padding-top: 100px;
+    
+  }
+
+  .img1:hover{
+    
+    opacity: 0.7;
+  }
+
+  .img1 {
+    background-image: url(/img/product/first1.jpg);
+    background-size: 102px;
+    background-repeat: no-repeat;
+  }
+  .img2:hover{
+
+    opacity: 0.7;
+  }
+
+  .img2 {
+    background-image: url(/img/product/2.jpg);
+    background-size: 102px;
+    border: 2px solid #fff;
+    background-repeat: no-repeat;
+  }
+  .img3:hover{
+
+    opacity: 0.7;
+  }
+  .img3 {
+    background-image: url(/img/product/3.jpg);
+    background-size: 102px;
+    border: 2px solid #fff;
+  }
+  .img4:hover{
+
+    opacity: 0.7;
+  }
+  .img4 {
+    background-image: url(/img/product/4.jpg);
+    background-size: 102px;
+    border: 2px solid #fff;
+    background-repeat: no-repeat;
+  }
+
+  /* slide */
+
+
+
+    
+  
+
+
+  /* description product */
+
+  .description {
+    padding-left: 106px;
+    display:inline-block;
+    width:83%;
+    padding-right: 21px;
+    
+  }
+    .description p {
+      line-height: 172%;
+      text-shadow: 2px 2px #0003;
+    }
+
+
+    .description button {
+      background-color: #FB3232;
+    }
+
+
+    
+    .title-product {
+      text-align: center;
+      padding-left: 292px;
+    }
+
+    
+  /* description product */
+
+
+
+  /* control reviews */
+
+  .review {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    box-sizing: content-box;
+    border-style: double;
+    border-width: thick;
+    border-color: rgb(124, 124, 124);
+    margin-top: 29px;
+
+    
+
+  }
+
+  .checked {
+    color: orange;
+  }
+  .icon-review {
+    float: left;
+    border-radius: 360px;
+    width: 4.7%;
+    height: 50px;
+  
+  }
+
+
+  .review span {
+    margin-bottom: 6px;
+    margin-top: 5px;
+  }
+  .review p {
+
+    margin-bottom: 40px;
+  
+  }
+
+  .star {
+    width: 80%;
+    height: 1px;
+    margin: 26px auto;
+    border-bottom: 1px solid #969696;
+  }
+
+  .more {
+    text-align: center;
+  }
+
+
+  /* control reviews */
+
+
+
+  /* control email box */
+
+
+  .email-box {
+    background-image: url(/img/background/smil.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    height: 300px;
+    background-attachment: fixed;
+    background-size: cover;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 10%;
+    margin-top: 42px;
+  }
+  .email-input{
+    display: flex;
+  justify-content: center;
+  margin: 0px;
+  margin-right: 210px;
+  margin-left: 321px;
+
+  }
+
+  .btn-email {
+    background-color: #48ABE2;
+    color: white;
+    
+
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    
+    opacity: 0.9;
+    height: 44px;
+    margin-top: 5px;
+
+
+  }
+
+  .btn-email:hover {
+    background-color:rgb(140, 210, 245);
+
+  }
+  .email-box h4 {
+    padding-top:1%;
+    text-decoration: none;
+    padding-left: 80px;
+    color: #fff;
+  }
+
+  .email-box h2 {
+    padding-top:1%;
+    text-decoration: none;
+    padding-left: 80px;
+    color: #fff;
+    text-shadow: 2px 2px #0003;
+  }
+
+  /* control email box */
+
+
+  /* control payment gateway */
+
+  .payment-gateway {
+    background-color: #fff;
+    padding: 1%;
+    display: flex;
+  justify-content: space-between;
+  padding-right: 5%;
+
+  
+  
+  }
+
+  .payment-gateway img {
+    padding-left: 4%;
+  }
+
+  /* control payment gateway */
+
+
+
+  /* control copyright in footer */
+
+  footer {
+    background-color: black;
+    color: #fff;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 28px;
+    display: flex;
+  justify-content: space-between;
+  }
+
+  footer a {
+    padding-right: 20px;
+  text-decoration: none;
+  color: white;
+  }
+
+
+  /* control copyright in footer */
+
+
+
+  /* control min-height for head-pic in mobile vr */
+
+  @media all and (max-width: 1240px) {
+    .head-pic {
+      min-height: 69%;
+    }
+  }
+
+  /* control min-height for head-pic in mobile vr 894px */
+  
+
+
+    
+  @media all and (max-width: 894px) {
+    
+    .container>img {
+      display: none;
+      
+    }
+
+  }
+
+  /* control mobile vr 794px */
+
+
+  @media all and (max-width: 794px) {
+    .grid-satisfaction{
+      padding: 0%;
+      padding-bottom: 15%;
+    }
+
+    h1{
+      font-size: 20px;
+    }
+    .icon-review {
+  width: 10%;
+
+    }
+    *{
+      margin: 0px;
+    
+    }
+    .nav-bar p {
+    margin-right: 0px;
+    margin-left: 5px;
+    font-size: 16px;
+    padding-right: 78px;
+  }
+    
+    .container>img {
+      display: none;
+      }
+      .who-we-are{
+        display: block;
+        
+      }
+      .who-we-are>img {
+        width: 100%;
+      }
+
+        .grid-container {
+          display: block;
+        }
+        .slide_flex{
+          
+            
+          display: inline-block;
+        }
+        .slide img {
+          width: 100%;
+        } 
+        .title-product{
+          padding-left: 0px;
+        }
+        .navigation{
+          padding-left: 37px;
+          padding-right: 0px;
+          
+        }
+        .email-input{
+          margin-right: 71px;
+          margin-left: 148px;
+          background-size: 100% 10%;
+        }
+        .navigation{
+          margin-top: 10px;
+        }
+  }
+
+  /* control mobile vr 794px */
+
+
+  /* control mobile vr 469px */
+
+
+  @media all and (max-width: 469px) {
+    input[type=text]{
+      width: 100%;
+      padding: 15px;
+      margin: 5px 0 0px 0;
+      
+    
+    }
+    H4{
+      padding-right: 92px;
+
+    }
+    .email-box h4 {
+      padding-right: 14px;
+
+    }
+    .contact{
+      margin-top: 20px;
+    MARGIN-BOTTOM: 24PX;
+    }
+
+    .logo{
+      width: 61%;
+    }
+
+    .nav-bar p {
+      display: none;
+  }
+  .slidershow {
+    width: 440px;
+  }
+  .description {
+    padding-left: 0px;
+    margin-left: 20px;
+
+  }
+  .icon-review {
+    width: 15%;
+  }
+  .email-input {
+    margin-right: 39px;
+    margin-left: 47px;
+  }
+  .email-box h2 {
+
+    padding-left: 7px;
+  }
+  .email-box h4 {
+    padding-left: 5px;
+  }
+  .head-pic {
+    min-height: 89%;
+  }
+  .copyright {
+    font-size: 10px;
+  }
+  .btn-first{
+    margin-top: 4px;
+  }
+  .email-btn {
+    margin-top: 4px;
+  }
+
+  }
+
+
+  /* control mobile vr 469px */
